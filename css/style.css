@@ -1,0 +1,19 @@
+* {
+	font-family: 'quicksand', sans-serif;
+}
+.jumbotron {
+	padding-top: 6rem;
+	background-color: #75c8c8;
+}
+
+#projects {
+	background-color: #75c8c8;
+}
+
+.myname {
+	text-decoration: none;
+}
+
+section {
+	padding-top: 5rem;
+}
