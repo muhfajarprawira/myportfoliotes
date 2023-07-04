@@ -1,9 +1,17 @@
 * {
 	font-family: 'quicksand', sans-serif;
 }
+body {
+	position: relative;
+}
+
 .jumbotron {
 	padding-top: 6rem;
-	background-color: #75c8c8;
+	background-color: var(--bs-body-bg);
+}
+ul.navbar-nav li.nav-item a.nav-link:active,
+ul.navbar-nav li.nav-item a.nav-link:hover {
+	color: white;
 }
 
 #projects {
@@ -16,4 +24,13 @@
 
 section {
 	padding-top: 5rem;
+}
+
+.justify-text {
+	display: grid;
+}
+
+.justify-text p {
+	text-align: justify;
+	margin: 0;
 }
